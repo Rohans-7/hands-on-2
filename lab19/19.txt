@@ -1,0 +1,9 @@
+mknod my_fifo p
+
+mkfifo my_fifo
+
+strace mknod my_fifo p
+
+strace mkfifo my_fifo
+
+
